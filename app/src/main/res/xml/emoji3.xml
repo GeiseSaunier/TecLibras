@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="8%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp">
+    <Row>
+        <Key android:codes="68372" android:keyEdgeFlags="left" android:keyIcon="@drawable/emoji_1f34a" />
+        <Key android:codes="67605" android:keyIcon="@drawable/emoji_1f34b" />
+        <Key android:codes="68377" android:keyIcon="@drawable/emoji_1f34c" />
+        <Key android:codes="68382" android:keyIcon="@drawable/emoji_1f34d" />
+        <Key android:codes="78370" android:keyIcon="@drawable/emoji_1f34e" />
+        <Key android:codes="67608" android:keyIcon="@drawable/emoji_1f34f" />
+        <Key android:codes="68371" android:keyIcon="@drawable/emoji_1f35a" />
+        <Key android:codes="67432" android:keyIcon="@drawable/emoji_1f35b" />
+        <Key android:codes="68369" android:keyEdgeFlags="right" android:keyIcon="@drawable/emoji_1f35c" />
+    </Row>
+    <Row>
+        <Key android:codes="58383" android:keyEdgeFlags="left" android:keyIcon="@drawable/emoji_1f35d" />
+        <Key android:codes="58379" android:keyIcon="@drawable/emoji_1f35e" />
+        <Key android:codes="58374" android:keyIcon="@drawable/emoji_1f35f" />
+        <Key android:codes="58387" android:keyIcon="@drawable/emoji_1f36a" />
+        <Key android:codes="58385" android:keyIcon="@drawable/emoji_1f36b" />
+        <Key android:codes="58386" android:keyIcon="@drawable/emoji_1f36c" />
+        <Key android:codes="58384" android:keyIcon="@drawable/emoji_1f36d" />
+        <Key android:codes="57607" android:keyIcon="@drawable/emoji_1f36f" />
+        <Key android:codes="-5" android:keyEdgeFlags="right" android:keyIcon="@drawable/emoji_1f37a" />
+    </Row>
+    <Row>
+        <Key android:codes="49433" android:keyEdgeFlags="left" android:keyIcon="@drawable/emoji_1f37b" />
+        <Key android:codes="49390" android:keyIcon="@drawable/emoji_1f37c" />
+        <Key android:codes="49376" android:keyIcon="@drawable/emoji_1f38d" />
+        <Key android:codes="49376" android:keyIcon="@drawable/emoji_1f345" />
+        <Key android:codes="49675" android:keyIcon="@drawable/emoji_1f346" />
+        <Key android:codes="49876" android:keyIcon="@drawable/emoji_1f347" />
+        <Key android:codes="49427" android:keyIcon="@drawable/emoji_1f348" />
+        <Key android:codes="49736" android:keyIcon="@drawable/emoji_1f349" />
+        <Key android:codes="49804" android:keyEdgeFlags="right" android:keyIcon="@drawable/emoji_1f350" />
+    </Row>
+    <Row>
+        <Key android:codes="52431" android:keyEdgeFlags="left" android:keyIcon="@drawable/emoji_1f351" />
+        <Key android:codes="52491" android:keyIcon="@drawable/emoji_1f352" />
+        <Key android:codes="52471" android:keyIcon="@drawable/emoji_1f353" />
+        <Key android:codes="52471" android:keyIcon="@drawable/emoji_1f354" />
+        <Key android:codes="52471" android:keyIcon="@drawable/emoji_1f355" />
+        <Key android:codes="52471" android:keyIcon="@drawable/emoji_1f356" />
+        <Key android:codes="52421" android:keyIcon="@drawable/emoji_1f357" />
+        <Key android:codes="52431" android:keyIcon="@drawable/emoji_1f358" />
+        <Key android:codes="52401" android:keyEdgeFlags="right" android:keyIcon="@drawable/emoji_1f359" />
+    </Row>
+    <Row>
+        <Key android:codes="57230" android:keyEdgeFlags="left" android:keyIcon="@drawable/emoji_1f360" />
+        <Key android:codes="58290" android:keyIcon="@drawable/emoji_1f361" />
+        <Key android:codes="58270" android:keyIcon="@drawable/emoji_1f362" />
+        <Key android:codes="58270" android:keyIcon="@drawable/emoji_1f363" />
+        <Key android:codes="58270" android:keyIcon="@drawable/emoji_1f364" />
+        <Key android:codes="59270" android:keyIcon="@drawable/emoji_1f365" />
+        <Key android:codes="53220" android:keyIcon="@drawable/emoji_1f366" />
+        <Key android:codes="54230" android:keyIcon="@drawable/emoji_1f367" />
+        <Key android:codes="59200" android:keyEdgeFlags="right" android:keyIcon="@drawable/emoji_1f368" />
+    </Row>
+    <Row>
+        <Key android:codes="70533" android:keyEdgeFlags="left" android:keyIcon="@drawable/emoji_1f369" />
+        <Key android:codes="70590" android:keyIcon="@drawable/emoji_1f370" />
+        <Key android:codes="70576" android:keyIcon="@drawable/emoji_1f371" />
+        <Key android:codes="70576" android:keyIcon="@drawable/emoji_1f372" />
+        <Key android:codes="70575" android:keyIcon="@drawable/emoji_1f373" />
+        <Key android:codes="70576" android:keyIcon="@drawable/emoji_1f374" />
+        <Key android:codes="70527" android:keyIcon="@drawable/emoji_1f375" />
+        <Key android:codes="70536" android:keyIcon="@drawable/emoji_1f376" />
+        <Key android:codes="70504" android:keyEdgeFlags="right" android:keyIcon="@drawable/emoji_1f377" />
+    </Row>
+    <Row>
+        <Key android:codes="84433" android:keyEdgeFlags="left" android:keyIcon="@drawable/emoji_1f378" />
+        <Key android:codes="84675" android:keyIcon="@drawable/emoji_1f379" />
+        <Key android:codes="84876" android:keyIcon="@drawable/emoji_1f380" />
+        <Key android:codes="84427" android:keyIcon="@drawable/emoji_1f381" />
+        <Key android:codes="84736" android:keyIcon="@drawable/emoji_1f382" />
+        <Key android:codes="84804" android:keyEdgeFlags="right" android:keyIcon="@drawable/emoji_2615" />
+    </Row>
+</Keyboard>

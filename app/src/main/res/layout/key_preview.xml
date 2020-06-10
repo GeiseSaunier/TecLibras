@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO XML para preview das letras do alfabeto quando clicada -->
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/previewKey"
+    android:gravity="center"
+    android:background="@drawable/pressed"
+    android:textColor="#959595"
+    android:textSize="15sp"
+    android:paddingBottom="30dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+</TextView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- TODO XML para reconhecer a linguagem do keyboard -->
+<input-method xmlns:android="http://schemas.android.com/apk/res/android">
+    <subtype
+        android:label="Libras"
+        android:imeSubtypeLocale="Libras_Br"
+        android:imeSubtypeMode="keyboard" />
+
+</input-method>
