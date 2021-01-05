@@ -51,7 +51,7 @@
 
     <Row android:rowEdgeFlags="bottom">
         <Key android:keyLabel="123" android:keyWidth="20%p" android:keyEdgeFlags="left" android:codes="-3" />
-        <Key android:keyIcon="@drawable/ic_insert_emoticon" android:keyWidth="20%p" android:codes="-100" />
+        <!--<Key android:keyIcon="@drawable/ic_insert_emoticon" android:keyWidth="20%p" android:codes="-100" />-->
         <Key android:keyLabel="," android:keyWidth="20%p" android:codes="44"/>
         <Key android:keyIcon="@drawable/space_bar" android:keyWidth="40%p"  android:codes="32"/>
         <Key android:keyLabel="." android:codes="46"/>

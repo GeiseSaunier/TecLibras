@@ -1,3 +1,6 @@
 <resources>
-    <string name="app_name">PoundKeyboard</string>
+    <string name="app_name">TecLibras</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="ativar_teclado_libras">Ativar Teclado Libras</string>
+    <string name="selecionar_teclado">Selecionar Teclado</string>
 </resources>
