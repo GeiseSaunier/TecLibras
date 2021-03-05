@@ -6,43 +6,43 @@
     android:verticalGap="0px"
     android:keyHeight="60dp">
     <Row>
-        <Key android:keyLabel="\?" android:codes="63" android:keyEdgeFlags="left"/>
-        <Key android:keyLabel="|"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_interrogacao" android:codes="63" android:keyEdgeFlags="left"/>
+        <Key android:keyIcon="@drawable/ic_icon_separar" android:codes="0"/>
         <Key android:keyIcon="@drawable/number1" android:codes="49" android:keyWidth="20%p" />
         <Key android:keyIcon="@drawable/number2" android:codes="50" android:keyWidth="20%p"/>
         <Key android:keyIcon="@drawable/number3" android:codes="51" android:keyWidth="20%p"/>
-        <Key android:keyLabel="|"/>
-        <Key android:keyLabel="!" android:codes="33" android:keyEdgeFlags="right"/>
+        <Key android:keyIcon="@drawable/ic_icon_separar" android:codes="0"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_exclamacao" android:codes="33" android:keyEdgeFlags="right"/>
 
     </Row>
 
     <Row>
-        <Key android:keyLabel="\@" android:codes="64" android:keyEdgeFlags="left"/>
-        <Key android:keyLabel="|"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_arroba" android:codes="64" android:keyEdgeFlags="left"/>
+        <Key android:keyIcon="@drawable/ic_icon_separar" android:codes="0"/>
         <Key android:keyIcon="@drawable/number4" android:codes="52" android:keyWidth="20%p"/>
         <Key android:keyIcon="@drawable/number5" android:codes="53" android:keyWidth="20%p"/>
         <Key android:keyIcon="@drawable/number6" android:codes="54" android:keyWidth="20%p"/>
-        <Key android:keyLabel="|"/>
+        <Key android:keyIcon="@drawable/ic_icon_separar" android:codes="0"/>
         <Key android:keyIcon="@drawable/space_bar" android:isRepeatable="true" android:codes="32"/>
     </Row>
 
     <Row>
-        <Key android:keyLabel="\*" android:codes="42" android:keyEdgeFlags="left"/>
-        <Key android:keyLabel="|"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_asterisco" android:codes="42" android:keyEdgeFlags="left"/>
+        <Key android:keyIcon="@drawable/ic_icon_separar" android:codes="0"/>
         <Key android:keyIcon="@drawable/number7" android:codes="55" android:keyWidth="20%p"/>
         <Key android:keyIcon="@drawable/number8" android:codes="56" android:keyWidth="20%p"/>
         <Key android:keyIcon="@drawable/number9" android:codes="57" android:keyWidth="20%p" android:keyEdgeFlags="right" />
-        <Key android:keyLabel="|"/>
+        <Key android:keyIcon="@drawable/ic_icon_separar" android:codes="0"/>
         <Key android:keyIcon="@drawable/backspace"  android:codes="-5" android:keyEdgeFlags="right" android:isRepeatable="true"/>
     </Row>
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:keyLabel="ABC" android:keyWidth="20%p" android:keyEdgeFlags="left" android:codes="3"/>
-        <Key android:keyLabel="/" android:codes="47"/>
-        <Key android:keyLabel="\:" android:codes="58" android:keyWidth="15%p"/>
+        <Key android:keyIcon="@drawable/ic_icon_alfabeto" android:keyWidth="20%p" android:keyEdgeFlags="left" android:codes="3"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_barra" android:codes="47"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_doispontos" android:codes="58" android:keyWidth="15%p"/>
         <Key android:keyIcon="@drawable/number0" android:codes="48"/>
-        <Key android:keyLabel="=" android:codes="61" android:keyWidth="15%p"/>
-        <Key android:keyLabel="\." android:codes="46"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_igualdade" android:codes="61" android:keyWidth="15%p"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_ponto" android:codes="46"/>
         <Key android:keyIcon="@drawable/return_black" android:codes="-4" android:keyWidth="20%p" android:keyEdgeFlags="right"/>
     </Row>
     -->

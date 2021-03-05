@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="60dp">
+
+    <Row>
+        <Key
+            android:keyIcon="@drawable/ic_letra_q_novo"
+            android:popupCharacters="1q" android:popupKeyboard="@xml/keyboard_popup"
+            android:keyEdgeFlags="left" android:codes="113"/>
+        <Key android:keyIcon="@drawable/ic_letra_w_novo"
+            android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="2w" android:codes="119"/>
+        <Key android:keyIcon="@drawable/ic_letra_e_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="ée3êè" android:codes="101"/>
+        <Key android:keyIcon="@drawable/ic_letra_r_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="4r" android:codes="114"/>
+        <Key android:keyIcon="@drawable/ic_letra_t_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="5y" android:codes="116"/>
+        <Key android:keyIcon="@drawable/ic_letra_y_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="6y" android:codes="121"/>
+        <Key android:keyIcon="@drawable/ic_letra_u_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="u7úù" android:codes="117"/>
+        <Key android:keyIcon="@drawable/ic_letra_i_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="i8íì" android:codes="105"/>
+        <Key android:keyIcon="@drawable/ic_letra_o_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="oó9òõô" android:codes="111"/>
+        <Key android:keyIcon="@drawable/ic_letra_p_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="0p" android:keyEdgeFlags="right" android:codes="112" />
+    </Row>
+
+    <Row>
+        <!-- android:iconPreview (TESTE PARA IMAGEM DA LETRA A) -->
+        <Key android:keyIcon="@drawable/ic_letra_a_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="aáâãà" android:codes="97" android:keyWidth="15%p" android:keyEdgeFlags="left" />
+        <Key android:keyIcon="@drawable/ic_letra_s_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="s" android:codes="115"/>
+        <Key android:keyIcon="@drawable/ic_letra_d_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="d" android:codes="100"/>
+        <Key android:keyIcon="@drawable/ic_letra_f_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="f" android:codes="102"/>
+        <Key android:keyIcon="@drawable/ic_letra_g_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="g" android:codes="103"/>
+        <Key android:keyIcon="@drawable/ic_letra_h_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="h" android:codes="104"/>
+        <Key android:keyIcon="@drawable/ic_letra_j_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="j" android:codes="106"/>
+        <Key android:keyIcon="@drawable/ic_letra_k_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="k" android:codes="107"/>
+        <Key android:keyIcon="@drawable/letter_l" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="l" android:codes="108" android:keyWidth="15%p" android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+
+        <Key android:keyIcon="@drawable/ic_keyboard_capslock_24_2" android:isModifier="true" android:isSticky="true" android:codes="-1" android:keyWidth="15%p" android:keyEdgeFlags="left" />
+        <Key android:keyIcon="@drawable/ic_letra_z_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="z" android:codes="122"/>
+        <Key android:keyIcon="@drawable/ic_letra_x_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="x" android:codes="120"/>
+        <Key android:keyIcon="@drawable/ic_letra_c_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="cç" android:codes="99"/>
+        <Key android:keyIcon="@drawable/ic_letra_v_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="v" android:codes="118"/>
+        <Key android:keyIcon="@drawable/ic_letra_b_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="b" android:codes="98"/>
+        <Key android:keyIcon="@drawable/ic_letra_n_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="n" android:codes="110"/>
+        <Key android:keyIcon="@drawable/ic_letra_m_novo" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="m" android:codes="109"/>
+        <Key android:keyIcon="@drawable/backspace" android:codes="-5" android:keyWidth="15%p" android:keyEdgeFlags="right" android:isRepeatable="true" />
+
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:keyLabel="123" android:keyWidth="20%p" android:keyEdgeFlags="left" android:codes="-3" />
+        <!--<Key android:keyIcon="@drawable/ic_insert_emoticon" android:keyWidth="20%p" android:codes="-100" />-->
+        <Key android:keyLabel="," android:keyWidth="15%p" android:codes="44"/>
+        <Key android:keyIcon="@drawable/space_bar" android:keyWidth="30%p"  android:codes="32"/>
+        <Key android:keyLabel="." android:keyWidth="15%p" android:codes="46"/>
+        <Key android:keyIcon="@drawable/return_black" android:keyWidth="20%p" android:keyEdgeFlags="right" android:codes="-4"/>
+    </Row>
+
+</Keyboard>

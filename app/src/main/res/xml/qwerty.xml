@@ -20,7 +20,7 @@
         <Key android:keyIcon="@drawable/letter_i" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="i8íì" android:codes="105"/>
         <Key android:keyIcon="@drawable/letter_o" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="oó9òõô" android:codes="111"/>
         <Key android:keyIcon="@drawable/letter_p" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="0p" android:keyEdgeFlags="right" android:codes="112" />
-     </Row>
+    </Row>
 
     <Row>
         <!-- android:iconPreview (TESTE PARA IMAGEM DA LETRA A) -->
@@ -37,7 +37,7 @@
 
     <Row>
 
-        <Key android:keyIcon="@drawable/ic_shift" android:codes="-1" android:keyWidth="15%p" android:keyEdgeFlags="left" />
+        <Key android:keyIcon="@drawable/ic_keyboard_capslock_24" android:isModifier="true" android:isSticky="true" android:codes="-1" android:keyWidth="15%p" android:keyEdgeFlags="left" />
         <Key android:keyIcon="@drawable/letter_z" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="z" android:codes="122"/>
         <Key android:keyIcon="@drawable/letter_x" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="x" android:codes="120"/>
         <Key android:keyIcon="@drawable/letter_c" android:popupKeyboard="@xml/keyboard_popup" android:popupCharacters="cç" android:codes="99"/>
@@ -50,11 +50,11 @@
     </Row>
 
     <Row android:rowEdgeFlags="bottom">
-        <Key android:keyLabel="123" android:keyWidth="20%p" android:keyEdgeFlags="left" android:codes="-3" />
+        <Key android:keyIcon="@drawable/ic_icon_numeros" android:keyWidth="20%p" android:keyEdgeFlags="left" android:codes="-3" />
         <!--<Key android:keyIcon="@drawable/ic_insert_emoticon" android:keyWidth="20%p" android:codes="-100" />-->
-        <Key android:keyLabel="," android:keyWidth="20%p" android:codes="44"/>
-        <Key android:keyIcon="@drawable/space_bar" android:keyWidth="40%p"  android:codes="32"/>
-        <Key android:keyLabel="." android:codes="46"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_virgula" android:keyWidth="15%p" android:codes="44"/>
+        <Key android:keyIcon="@drawable/space_bar" android:keyWidth="30%p"  android:codes="32"/>
+        <Key android:keyIcon="@drawable/ic_simbolo_ponto" android:keyWidth="15%p" android:codes="46"/>
         <Key android:keyIcon="@drawable/return_black" android:keyWidth="20%p" android:keyEdgeFlags="right" android:codes="-4"/>
     </Row>
 

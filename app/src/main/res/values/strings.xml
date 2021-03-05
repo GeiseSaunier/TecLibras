@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">TecLibras</string>
+    <string name="Themes">Themes</string>
+    <string name="Aplyced">Aplicar</string>
+    <string name="Retornar_menu">Voltar</string>
     <string name="title_activity_main">MainActivity</string>
-    <string name="ativar_teclado_libras">Ativar Teclado Libras</string>
-    <string name="selecionar_teclado">Selecionar Teclado</string>
+    <string name="ativar_teclado_libras">ATIVAR TECLIBRAS</string>
+    <string name="selecionar_teclado">SELECIONAR TECLADO</string>
+    <string name="Alterar_tema">ALTERAR TEMA</string>
+    <string name="texto_inicio">TecLibras tem o propósito de ser uma voz para todos. Usando a tecnologia para democratizar o direito de expressão.</string>
+    <string name="bem_vindo">BEM VINDO(A)!</string>
 </resources>

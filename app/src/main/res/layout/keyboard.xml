@@ -7,8 +7,12 @@
     android:keyTextColor="#959595"
     android:keyBackground="@color/background"
     android:keyPreviewLayout="@layout/key_preview"
+    android:focusableInTouchMode="true"
+    android:keyPreviewOffset="12dp"
+    android:focusable="true"
+    android:layout_centerHorizontal="true"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
+    android:layout_height="match_parent"
+    android:visibility="visible">
 
 </android.inputmethodservice.KeyboardView>
